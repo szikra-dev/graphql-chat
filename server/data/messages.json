@@ -3,5 +3,20 @@
     "id": "SJKhIAKYB",
     "from": "system",
     "text": "Welcome!"
+  },
+  {
+    "id": "eZNovcwPi502D-_UACQI6",
+    "from": "alice",
+    "text": "Hi!"
+  },
+  {
+    "id": "odENYJOT9Oo4hoNocb9g1",
+    "from": "alice",
+    "text": "How are you doing?"
+  },
+  {
+    "id": "JvzBfvCEQ9Q3dnKLCCUNA",
+    "from": "alice",
+    "text": "Hope you are doing good!"
   }
 ]
