@@ -1,4 +1,14 @@
-import { gql } from '@apollo/client';
+import { gql } from '@apollo/client'
+
+export const MESSAGE_ADDED_SUBSCRIPTION = gql`
+  subscription MessageAddedSubscription {
+    message: messageAdded {
+      id
+      from
+      text
+    }
+  }
+`
 
 export const MESSAGES_QUERY = gql`
   query MessagesQuery {
@@ -8,7 +18,7 @@ export const MESSAGES_QUERY = gql`
       text
     }
   }
-`;
+`
 
 export const ADD_MESSAGE_MUTATION = gql`
   mutation AddMessageMutation($input: MessageInput!) {
@@ -18,4 +28,4 @@ export const ADD_MESSAGE_MUTATION = gql`
       text
     }
   }
-`;
+`
